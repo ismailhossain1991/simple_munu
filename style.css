@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-color: #ccc;
+  padding: 10px 0px;
+}
+.header .container{
+  width: 80%;
+  margin: auto;
+}
+.container:after{
+content: '';
+display: block;
+clear: both;
+}
+.logo{
+  width: 30%;
+  float: left;
+}
+.menu{
+  width: 70%;
+  float: left;
+}
+.menu ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+.menu ul li a{
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  display: inline-block;
+
+}
